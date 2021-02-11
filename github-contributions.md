@@ -429,6 +429,16 @@ Latest record from the dataset:
     
 
 
+## Same graph with focusing to the last 6 month
+
+Only contributors with both created pr and helped pr visible
+
+
+    
+![png](github-contributions_files/github-contributions_24_0.png)
+    
+
+
 # Number of individual contributors per month
 
 Number of different Github users who either created PR, commented PR, added review to a PR
@@ -520,7 +530,7 @@ Note: only events from apache/hadoop-ozone repository are included. Earlier PRs/
 
 
     
-![png](github-contributions_files/github-contributions_24_0.png)
+![png](github-contributions_files/github-contributions_28_0.png)
     
 
 
@@ -532,7 +542,7 @@ Note: only events from apache/hadoop-ozone repository are included. Earlier PRs/
 
 
     
-![png](github-contributions_files/github-contributions_27_0.png)
+![png](github-contributions_files/github-contributions_31_0.png)
     
 
 
