@@ -4,7 +4,6 @@ Latest record from the dataset:
 
 
 <div>
-<style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
@@ -53,75 +52,85 @@ Latest record from the dataset:
 
 
 
-    ---------------------------------------------------------------------------
-
-    KeyError                                  Traceback (most recent call last)
-
-    <ipython-input-367-e98195505eab> in <module>
-    ----> 1 c = contributions[["identifier","author","type","own"]].groupby(["author","type","own"]).count() \
-          2    .reset_index().rename(columns={"identifier":"contributions"})
-          3 #contributions per user
-          4 c[~c.own][["author","contributions"]].groupby("author").sum().sort_values("contributions",ascending=False).head(10)
 
 
-    /usr/lib/python3.9/site-packages/pandas/core/frame.py in __getitem__(self, key)
-       3028             if is_iterator(key):
-       3029                 key = list(key)
-    -> 3030             indexer = self.loc._get_listlike_indexer(key, axis=1, raise_missing=True)[1]
-       3031 
-       3032         # take() does not accept boolean indexers
+<div>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
 
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
 
-    /usr/lib/python3.9/site-packages/pandas/core/indexing.py in _get_listlike_indexer(self, key, axis, raise_missing)
-       1264             keyarr, indexer, new_indexer = ax._reindex_non_unique(keyarr)
-       1265 
-    -> 1266         self._validate_read_indexer(keyarr, indexer, axis, raise_missing=raise_missing)
-       1267         return keyarr, indexer
-       1268 
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>contributions</th>
+    </tr>
+    <tr>
+      <th>author</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>bharatviswa504</th>
+      <td>1179</td>
+    </tr>
+    <tr>
+      <th>adoroszlai</th>
+      <td>1149</td>
+    </tr>
+    <tr>
+      <th>xiaoyuyao</th>
+      <td>1079</td>
+    </tr>
+    <tr>
+      <th>elek</th>
+      <td>932</td>
+    </tr>
+    <tr>
+      <th>bshashikant</th>
+      <td>354</td>
+    </tr>
+    <tr>
+      <th>avijayanhwx</th>
+      <td>337</td>
+    </tr>
+    <tr>
+      <th>dineshchitlangia</th>
+      <td>330</td>
+    </tr>
+    <tr>
+      <th>arp7</th>
+      <td>273</td>
+    </tr>
+    <tr>
+      <th>anuengineer</th>
+      <td>257</td>
+    </tr>
+    <tr>
+      <th>linyiqun</th>
+      <td>246</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
-
-    /usr/lib/python3.9/site-packages/pandas/core/indexing.py in _validate_read_indexer(self, key, indexer, axis, raise_missing)
-       1314             if raise_missing:
-       1315                 not_found = list(set(key) - set(ax))
-    -> 1316                 raise KeyError(f"{not_found} not in index")
-       1317 
-       1318             not_found = key[missing_mask]
-
-
-    KeyError: "['own'] not in index"
 
 
 ## Contributors per participations in PRs which are not created by self (helping PRs)
 
 
-    ---------------------------------------------------------------------------
-
-    AttributeError                            Traceback (most recent call last)
-
-    <ipython-input-368-29e68a92cbac> in <module>
-    ----> 1 c = contributions[~contributions.own][["identifier","author"]].groupby(["identifier","author"]).count() \
-          2    .reset_index().groupby("author").count()
-          3 c.sort_values("identifier",ascending=False).head(20)
-
-
-    /usr/lib/python3.9/site-packages/pandas/core/generic.py in __getattr__(self, name)
-       5460             if self._info_axis._can_hold_identifiers_and_holds_name(name):
-       5461                 return self[name]
-    -> 5462             return object.__getattribute__(self, name)
-       5463 
-       5464     def __setattr__(self, name: str, value) -> None:
-
-
-    AttributeError: 'DataFrame' object has no attribute 'own'
-
-
-## Contributors per participations in any PRs
-
-
 
 
 <div>
-<style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
@@ -148,83 +157,199 @@ Latest record from the dataset:
   <tbody>
     <tr>
       <th>adoroszlai</th>
-      <td>359</td>
+      <td>509</td>
     </tr>
     <tr>
       <th>elek</th>
-      <td>291</td>
+      <td>413</td>
     </tr>
     <tr>
       <th>bharatviswa504</th>
-      <td>157</td>
+      <td>295</td>
     </tr>
     <tr>
       <th>xiaoyuyao</th>
-      <td>140</td>
+      <td>292</td>
     </tr>
     <tr>
-      <th>bshashikant</th>
-      <td>106</td>
-    </tr>
-    <tr>
-      <th>amaliujia</th>
-      <td>102</td>
+      <th>dineshchitlangia</th>
+      <td>146</td>
     </tr>
     <tr>
       <th>avijayanhwx</th>
-      <td>93</td>
+      <td>143</td>
     </tr>
     <tr>
-      <th>GlenGeng</th>
-      <td>84</td>
+      <th>bshashikant</th>
+      <td>140</td>
+    </tr>
+    <tr>
+      <th>arp7</th>
+      <td>126</td>
+    </tr>
+    <tr>
+      <th>anuengineer</th>
+      <td>121</td>
+    </tr>
+    <tr>
+      <th>vivekratnavel</th>
+      <td>100</td>
+    </tr>
+    <tr>
+      <th>mukul1987</th>
+      <td>97</td>
     </tr>
     <tr>
       <th>ChenSammi</th>
-      <td>81</td>
+      <td>92</td>
+    </tr>
+    <tr>
+      <th>github-actions</th>
+      <td>85</td>
     </tr>
     <tr>
       <th>codecov-commenter</th>
       <td>76</td>
     </tr>
     <tr>
+      <th>nandakumar131</th>
+      <td>76</td>
+    </tr>
+    <tr>
       <th>linyiqun</th>
-      <td>69</td>
+      <td>71</td>
     </tr>
     <tr>
-      <th>vivekratnavel</th>
-      <td>69</td>
+      <th>amaliujia</th>
+      <td>67</td>
     </tr>
     <tr>
-      <th>maobaolong</th>
-      <td>66</td>
-    </tr>
-    <tr>
-      <th>github-actions</th>
+      <th>hanishakoneru</th>
       <td>62</td>
     </tr>
     <tr>
-      <th>runzhiwang</th>
-      <td>61</td>
+      <th>lokeshj1703</th>
+      <td>59</td>
     </tr>
     <tr>
-      <th>ayushtkn</th>
-      <td>51</td>
+      <th>swagle</th>
+      <td>56</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+## Contributors per participations in any PRs
+
+
+
+
+<div>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>identifier</th>
     </tr>
     <tr>
-      <th>captainzmc</th>
-      <td>48</td>
+      <th>author</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>adoroszlai</th>
+      <td>782</td>
     </tr>
     <tr>
-      <th>arp7</th>
-      <td>47</td>
+      <th>elek</th>
+      <td>596</td>
+    </tr>
+    <tr>
+      <th>bharatviswa504</th>
+      <td>427</td>
+    </tr>
+    <tr>
+      <th>xiaoyuyao</th>
+      <td>329</td>
+    </tr>
+    <tr>
+      <th>avijayanhwx</th>
+      <td>220</td>
+    </tr>
+    <tr>
+      <th>bshashikant</th>
+      <td>190</td>
+    </tr>
+    <tr>
+      <th>dineshchitlangia</th>
+      <td>164</td>
+    </tr>
+    <tr>
+      <th>vivekratnavel</th>
+      <td>154</td>
     </tr>
     <tr>
       <th>mukul1987</th>
-      <td>47</td>
+      <td>139</td>
+    </tr>
+    <tr>
+      <th>ChenSammi</th>
+      <td>128</td>
+    </tr>
+    <tr>
+      <th>arp7</th>
+      <td>128</td>
+    </tr>
+    <tr>
+      <th>anuengineer</th>
+      <td>123</td>
+    </tr>
+    <tr>
+      <th>hanishakoneru</th>
+      <td>110</td>
+    </tr>
+    <tr>
+      <th>amaliujia</th>
+      <td>102</td>
+    </tr>
+    <tr>
+      <th>nandakumar131</th>
+      <td>98</td>
+    </tr>
+    <tr>
+      <th>maobaolong</th>
+      <td>96</td>
+    </tr>
+    <tr>
+      <th>swagle</th>
+      <td>89</td>
     </tr>
     <tr>
       <th>smengcl</th>
-      <td>45</td>
+      <td>86</td>
+    </tr>
+    <tr>
+      <th>github-actions</th>
+      <td>85</td>
+    </tr>
+    <tr>
+      <th>GlenGeng</th>
+      <td>84</td>
     </tr>
   </tbody>
 </table>
@@ -240,7 +365,6 @@ Latest record from the dataset:
 
 
 <div>
-<style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
@@ -267,58 +391,65 @@ Latest record from the dataset:
     <tr>
       <th>0</th>
       <td>adoroszlai</td>
-      <td>129</td>
-      <td>129</td>
-      <td>13.976165</td>
+      <td>275</td>
+      <td>275</td>
+      <td>14.211886</td>
     </tr>
     <tr>
       <th>1</th>
       <td>elek</td>
-      <td>81</td>
-      <td>210</td>
-      <td>8.775731</td>
+      <td>190</td>
+      <td>465</td>
+      <td>9.819121</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>GlenGeng</td>
-      <td>48</td>
-      <td>258</td>
-      <td>5.200433</td>
+      <td>bharatviswa504</td>
+      <td>132</td>
+      <td>597</td>
+      <td>6.821705</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>bharatviswa504</td>
-      <td>46</td>
-      <td>304</td>
-      <td>4.983749</td>
+      <td>avijayanhwx</td>
+      <td>77</td>
+      <td>674</td>
+      <td>3.979328</td>
     </tr>
     <tr>
       <th>4</th>
       <td>maobaolong</td>
-      <td>37</td>
-      <td>341</td>
-      <td>4.008667</td>
+      <td>68</td>
+      <td>742</td>
+      <td>3.514212</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>amaliujia</td>
-      <td>35</td>
-      <td>376</td>
-      <td>3.791983</td>
+      <td>smengcl</td>
+      <td>60</td>
+      <td>802</td>
+      <td>3.100775</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>runzhiwang</td>
-      <td>32</td>
-      <td>408</td>
-      <td>3.466956</td>
+      <td>vivekratnavel</td>
+      <td>54</td>
+      <td>856</td>
+      <td>2.790698</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>captainzmc</td>
-      <td>29</td>
-      <td>437</td>
-      <td>3.141928</td>
+      <td>bshashikant</td>
+      <td>50</td>
+      <td>906</td>
+      <td>2.583979</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>runzhiwang</td>
+      <td>49</td>
+      <td>955</td>
+      <td>2.532300</td>
     </tr>
   </tbody>
 </table>
@@ -331,7 +462,7 @@ Latest record from the dataset:
 
 
 
-    9
+    10
 
 
 
@@ -340,7 +471,7 @@ Latest record from the dataset:
 
 
 
-    7.155038759689924
+    7.036363636363638
 
 
 
@@ -351,30 +482,6 @@ Latest record from the dataset:
 
 
 ## People with created PRs > reviewed/commented PRS
-
-
-    ---------------------------------------------------------------------------
-
-    AttributeError                            Traceback (most recent call last)
-
-    <ipython-input-374-c8b18b1ad4d0> in <module>
-          1 created = contributions[contributions.type == "PR_CREATED"][["author","identifier"]].groupby("author").count().rename(columns={"identifier":"created"})
-    ----> 2 helped = contributions[~contributions.own][["identifier"]].groupby([contributions.author,contributions.identifier]).sum().rename(columns={"identifier":"helped"}) \
-          3   .reset_index().groupby(["author"]).count().drop(columns=["identifier"])
-          4 merged = pd.merge(helped,created, left_index=True, right_index=True)
-          5 
-
-
-    /usr/lib/python3.9/site-packages/pandas/core/generic.py in __getattr__(self, name)
-       5460             if self._info_axis._can_hold_identifiers_and_holds_name(name):
-       5461                 return self[name]
-    -> 5462             return object.__getattribute__(self, name)
-       5463 
-       5464     def __setattr__(self, name: str, value) -> None:
-
-
-    AttributeError: 'DataFrame' object has no attribute 'own'
-
 
 
     
@@ -388,11 +495,14 @@ Number of different Github users who either created PR, commented PR, added revi
 
 Note: only events from apache/hadoop-ozone repository are included. Earlier PRs/comments are not here.
 
+    /usr/lib/python3.9/site-packages/pandas/core/arrays/datetimes.py:1101: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+      warnings.warn(
+
+
 
 
 
 <div>
-<style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
@@ -415,47 +525,62 @@ Note: only events from apache/hadoop-ozone repository are included. Earlier PRs/
   </thead>
   <tbody>
     <tr>
-      <th>0</th>
+      <th>8</th>
+      <td>2020-03</td>
+      <td>37</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>2020-04</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>2020-05</td>
+      <td>44</td>
+    </tr>
+    <tr>
+      <th>11</th>
       <td>2020-06</td>
       <td>48</td>
     </tr>
     <tr>
-      <th>1</th>
+      <th>12</th>
       <td>2020-07</td>
       <td>46</td>
     </tr>
     <tr>
-      <th>2</th>
+      <th>13</th>
       <td>2020-08</td>
       <td>39</td>
     </tr>
     <tr>
-      <th>3</th>
+      <th>14</th>
       <td>2020-09</td>
       <td>45</td>
     </tr>
     <tr>
-      <th>4</th>
+      <th>15</th>
       <td>2020-10</td>
       <td>40</td>
     </tr>
     <tr>
-      <th>5</th>
+      <th>16</th>
       <td>2020-11</td>
       <td>47</td>
     </tr>
     <tr>
-      <th>6</th>
+      <th>17</th>
       <td>2020-12</td>
       <td>42</td>
     </tr>
     <tr>
-      <th>7</th>
+      <th>18</th>
       <td>2021-01</td>
       <td>47</td>
     </tr>
     <tr>
-      <th>8</th>
+      <th>19</th>
       <td>2021-02</td>
       <td>35</td>
     </tr>
@@ -493,7 +618,6 @@ Note: only events from apache/hadoop-ozone repository are included. Earlier PRs/
 
 
 <div>
-<style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
@@ -518,6 +642,50 @@ Note: only events from apache/hadoop-ozone repository are included. Earlier PRs/
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <th>2019-05</th>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>2019-06</th>
+      <td>14</td>
+    </tr>
+    <tr>
+      <th>2019-07</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>2019-10</th>
+      <td>250</td>
+    </tr>
+    <tr>
+      <th>2019-11</th>
+      <td>383</td>
+    </tr>
+    <tr>
+      <th>2019-12</th>
+      <td>320</td>
+    </tr>
+    <tr>
+      <th>2020-01</th>
+      <td>281</td>
+    </tr>
+    <tr>
+      <th>2020-02</th>
+      <td>225</td>
+    </tr>
+    <tr>
+      <th>2020-03</th>
+      <td>403</td>
+    </tr>
+    <tr>
+      <th>2020-04</th>
+      <td>442</td>
+    </tr>
+    <tr>
+      <th>2020-05</th>
+      <td>400</td>
+    </tr>
     <tr>
       <th>2020-06</th>
       <td>562</td>
