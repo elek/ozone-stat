@@ -7,3 +7,4 @@ The raw data is retrieved from public datasources with [omp](https://github.com/
 Statistics:
 
  * [Github PR statistics](./github-contributions.md)
+ * [Git commit statistics](./git-commits.md)
