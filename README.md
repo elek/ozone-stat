@@ -8,3 +8,4 @@ Statistics:
 
  * [Github PR statistics](./github-contributions.md)
  * [Git commit statistics](./git-commits.md)
+ * [Jira issue statistics](./jira-contributions.md)
