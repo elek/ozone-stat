@@ -20,20 +20,77 @@ Latest record from the dataset:
   </thead>
   <tbody>
     <tr>
-      <th>7843</th>
+      <th>17679</th>
       <td>apache</td>
       <td>ozone</td>
-      <td>PR_COMMENTED</td>
-      <td>1766</td>
+      <td>PR_MERGED</td>
+      <td>1874</td>
       <td>NaN</td>
-      <td>2021-02-11 04:27:15+00:00</td>
-      <td>bharatviswa504</td>
-      <td>bharatviswa504</td>
+      <td>2021-02-18 18:58:33+00:00</td>
+      <td>xiaoyuyao</td>
+      <td>vivekratnavel</td>
     </tr>
   </tbody>
 </table>
 </div>
 
+
+
+## Created pull requests per repositories
+
+
+
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>org</th>
+      <th>repo</th>
+      <th>no</th>
+      <th>ratio</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>apache</td>
+      <td>hadoop</td>
+      <td>769</td>
+      <td>0.282617</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>apache</td>
+      <td>ozone</td>
+      <td>1934</td>
+      <td>0.710768</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>apache</td>
+      <td>ozone-docker</td>
+      <td>17</td>
+      <td>0.006248</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>apache</td>
+      <td>ozone-site</td>
+      <td>1</td>
+      <td>0.000368</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+    
+![png](github-contributions_files/github-contributions_7_0.png)
+    
 
 
 # Github Contributions per user
@@ -57,43 +114,43 @@ Latest record from the dataset:
   <tbody>
     <tr>
       <th>bharatviswa504</th>
-      <td>1179</td>
-    </tr>
-    <tr>
-      <th>adoroszlai</th>
-      <td>1149</td>
+      <td>1854</td>
     </tr>
     <tr>
       <th>xiaoyuyao</th>
-      <td>1079</td>
+      <td>1483</td>
+    </tr>
+    <tr>
+      <th>adoroszlai</th>
+      <td>1230</td>
     </tr>
     <tr>
       <th>elek</th>
-      <td>932</td>
-    </tr>
-    <tr>
-      <th>bshashikant</th>
-      <td>354</td>
-    </tr>
-    <tr>
-      <th>avijayanhwx</th>
-      <td>337</td>
-    </tr>
-    <tr>
-      <th>dineshchitlangia</th>
-      <td>330</td>
+      <td>1173</td>
     </tr>
     <tr>
       <th>arp7</th>
-      <td>273</td>
+      <td>686</td>
     </tr>
     <tr>
       <th>anuengineer</th>
-      <td>257</td>
+      <td>605</td>
     </tr>
     <tr>
-      <th>linyiqun</th>
-      <td>246</td>
+      <th>bshashikant</th>
+      <td>452</td>
+    </tr>
+    <tr>
+      <th>avijayanhwx</th>
+      <td>376</td>
+    </tr>
+    <tr>
+      <th>dineshchitlangia</th>
+      <td>363</td>
+    </tr>
+    <tr>
+      <th>nandakumar131</th>
+      <td>318</td>
     </tr>
   </tbody>
 </table>
@@ -121,83 +178,83 @@ Latest record from the dataset:
   <tbody>
     <tr>
       <th>adoroszlai</th>
-      <td>509</td>
+      <td>544</td>
     </tr>
     <tr>
       <th>elek</th>
-      <td>413</td>
+      <td>514</td>
     </tr>
     <tr>
       <th>bharatviswa504</th>
-      <td>295</td>
+      <td>425</td>
     </tr>
     <tr>
       <th>xiaoyuyao</th>
-      <td>292</td>
-    </tr>
-    <tr>
-      <th>dineshchitlangia</th>
-      <td>146</td>
-    </tr>
-    <tr>
-      <th>avijayanhwx</th>
-      <td>143</td>
-    </tr>
-    <tr>
-      <th>bshashikant</th>
-      <td>140</td>
-    </tr>
-    <tr>
-      <th>arp7</th>
-      <td>126</td>
+      <td>378</td>
     </tr>
     <tr>
       <th>anuengineer</th>
-      <td>121</td>
+      <td>296</td>
     </tr>
     <tr>
-      <th>vivekratnavel</th>
-      <td>100</td>
+      <th>arp7</th>
+      <td>257</td>
+    </tr>
+    <tr>
+      <th>bshashikant</th>
+      <td>177</td>
+    </tr>
+    <tr>
+      <th>avijayanhwx</th>
+      <td>163</td>
+    </tr>
+    <tr>
+      <th>dineshchitlangia</th>
+      <td>162</td>
     </tr>
     <tr>
       <th>mukul1987</th>
-      <td>97</td>
+      <td>151</td>
+    </tr>
+    <tr>
+      <th>nandakumar131</th>
+      <td>128</td>
+    </tr>
+    <tr>
+      <th>vivekratnavel</th>
+      <td>115</td>
     </tr>
     <tr>
       <th>ChenSammi</th>
-      <td>92</td>
+      <td>99</td>
+    </tr>
+    <tr>
+      <th>hanishakoneru</th>
+      <td>87</td>
     </tr>
     <tr>
       <th>github-actions</th>
       <td>85</td>
     </tr>
     <tr>
+      <th>swagle</th>
+      <td>80</td>
+    </tr>
+    <tr>
+      <th>lokeshj1703</th>
+      <td>77</td>
+    </tr>
+    <tr>
       <th>codecov-commenter</th>
       <td>76</td>
     </tr>
     <tr>
-      <th>nandakumar131</th>
-      <td>76</td>
-    </tr>
-    <tr>
       <th>linyiqun</th>
-      <td>71</td>
+      <td>75</td>
     </tr>
     <tr>
       <th>amaliujia</th>
-      <td>67</td>
-    </tr>
-    <tr>
-      <th>hanishakoneru</th>
-      <td>62</td>
-    </tr>
-    <tr>
-      <th>lokeshj1703</th>
-      <td>59</td>
-    </tr>
-    <tr>
-      <th>swagle</th>
-      <td>56</td>
+      <td>69</td>
     </tr>
   </tbody>
 </table>
@@ -225,62 +282,74 @@ Latest record from the dataset:
   <tbody>
     <tr>
       <th>adoroszlai</th>
-      <td>782</td>
+      <td>863</td>
     </tr>
     <tr>
       <th>elek</th>
-      <td>596</td>
+      <td>775</td>
     </tr>
     <tr>
       <th>bharatviswa504</th>
-      <td>427</td>
+      <td>641</td>
     </tr>
     <tr>
       <th>xiaoyuyao</th>
-      <td>329</td>
-    </tr>
-    <tr>
-      <th>avijayanhwx</th>
-      <td>220</td>
-    </tr>
-    <tr>
-      <th>bshashikant</th>
-      <td>190</td>
-    </tr>
-    <tr>
-      <th>dineshchitlangia</th>
-      <td>164</td>
-    </tr>
-    <tr>
-      <th>vivekratnavel</th>
-      <td>154</td>
-    </tr>
-    <tr>
-      <th>mukul1987</th>
-      <td>139</td>
-    </tr>
-    <tr>
-      <th>ChenSammi</th>
-      <td>128</td>
-    </tr>
-    <tr>
-      <th>arp7</th>
-      <td>128</td>
+      <td>448</td>
     </tr>
     <tr>
       <th>anuengineer</th>
-      <td>123</td>
+      <td>304</td>
     </tr>
     <tr>
-      <th>hanishakoneru</th>
-      <td>110</td>
+      <th>avijayanhwx</th>
+      <td>274</td>
     </tr>
     <tr>
-      <th>amaliujia</th>
-      <td>102</td>
+      <th>arp7</th>
+      <td>268</td>
+    </tr>
+    <tr>
+      <th>bshashikant</th>
+      <td>256</td>
+    </tr>
+    <tr>
+      <th>mukul1987</th>
+      <td>210</td>
+    </tr>
+    <tr>
+      <th>vivekratnavel</th>
+      <td>198</td>
+    </tr>
+    <tr>
+      <th>dineshchitlangia</th>
+      <td>197</td>
     </tr>
     <tr>
       <th>nandakumar131</th>
+      <td>185</td>
+    </tr>
+    <tr>
+      <th>hanishakoneru</th>
+      <td>153</td>
+    </tr>
+    <tr>
+      <th>ChenSammi</th>
+      <td>150</td>
+    </tr>
+    <tr>
+      <th>swagle</th>
+      <td>126</td>
+    </tr>
+    <tr>
+      <th>lokeshj1703</th>
+      <td>113</td>
+    </tr>
+    <tr>
+      <th>amaliujia</th>
+      <td>105</td>
+    </tr>
+    <tr>
+      <th>smengcl</th>
       <td>98</td>
     </tr>
     <tr>
@@ -288,20 +357,8 @@ Latest record from the dataset:
       <td>96</td>
     </tr>
     <tr>
-      <th>swagle</th>
-      <td>89</td>
-    </tr>
-    <tr>
-      <th>smengcl</th>
-      <td>86</td>
-    </tr>
-    <tr>
-      <th>github-actions</th>
-      <td>85</td>
-    </tr>
-    <tr>
-      <th>GlenGeng</th>
-      <td>84</td>
+      <th>sodonnel</th>
+      <td>87</td>
     </tr>
   </tbody>
 </table>
@@ -311,7 +368,7 @@ Latest record from the dataset:
 
 # Bus factor (number of contributors responsible for the 50% of the prs) from last half year
 
-## Contributors until the half of the all contributions
+## Contributors until the half of the all contributions (last 6 month)
 
 
 
@@ -331,58 +388,58 @@ Latest record from the dataset:
     <tr>
       <th>0</th>
       <td>adoroszlai</td>
-      <td>71</td>
-      <td>71</td>
-      <td>12.095400</td>
+      <td>73</td>
+      <td>73</td>
+      <td>12.207358</td>
     </tr>
     <tr>
       <th>1</th>
       <td>elek</td>
-      <td>49</td>
+      <td>47</td>
       <td>120</td>
-      <td>8.347530</td>
+      <td>7.859532</td>
     </tr>
     <tr>
       <th>2</th>
       <td>GlenGeng</td>
-      <td>42</td>
-      <td>162</td>
-      <td>7.155026</td>
+      <td>41</td>
+      <td>161</td>
+      <td>6.856187</td>
     </tr>
     <tr>
       <th>3</th>
       <td>amaliujia</td>
-      <td>33</td>
+      <td>34</td>
       <td>195</td>
-      <td>5.621806</td>
+      <td>5.685619</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>rakeshadr</td>
-      <td>25</td>
-      <td>220</td>
-      <td>4.258944</td>
+      <td>bharatviswa504</td>
+      <td>26</td>
+      <td>221</td>
+      <td>4.347826</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>lamber-ken</td>
-      <td>22</td>
-      <td>242</td>
-      <td>3.747871</td>
+      <td>rakeshadr</td>
+      <td>26</td>
+      <td>247</td>
+      <td>4.347826</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>bharatviswa504</td>
+      <td>lamber-ken</td>
       <td>22</td>
-      <td>264</td>
-      <td>3.747871</td>
+      <td>269</td>
+      <td>3.678930</td>
     </tr>
     <tr>
       <th>7</th>
       <td>captainzmc</td>
-      <td>21</td>
-      <td>285</td>
-      <td>3.577513</td>
+      <td>20</td>
+      <td>289</td>
+      <td>3.344482</td>
     </tr>
   </tbody>
 </table>
@@ -404,13 +461,13 @@ Latest record from the dataset:
 
 
 
-    8.26760563380282
+    8.191780821917806
 
 
 
 
     
-![png](github-contributions_files/github-contributions_18_0.png)
+![png](github-contributions_files/github-contributions_21_0.png)
     
 
 
@@ -418,7 +475,7 @@ Latest record from the dataset:
 
 
     
-![png](github-contributions_files/github-contributions_21_0.png)
+![png](github-contributions_files/github-contributions_24_0.png)
     
 
 
@@ -428,7 +485,7 @@ Only contributors with both created pr and helped pr visible
 
 
     
-![png](github-contributions_files/github-contributions_25_0.png)
+![png](github-contributions_files/github-contributions_28_0.png)
     
 
 
@@ -439,8 +496,97 @@ Number of different Github users who either created PR, commented PR, added revi
 Note: only events from apache/hadoop-ozone repository are included. Earlier PRs/comments are not here.
 
 
+
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>month</th>
+      <th>01</th>
+      <th>02</th>
+      <th>03</th>
+      <th>04</th>
+      <th>05</th>
+      <th>06</th>
+      <th>07</th>
+      <th>08</th>
+      <th>09</th>
+      <th>10</th>
+      <th>11</th>
+      <th>12</th>
+    </tr>
+    <tr>
+      <th>year</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2019</th>
+      <td>2.0</td>
+      <td>14.0</td>
+      <td>19.0</td>
+      <td>19.0</td>
+      <td>24.0</td>
+      <td>23.0</td>
+      <td>28.0</td>
+      <td>28.0</td>
+      <td>27.0</td>
+      <td>32.0</td>
+      <td>35.0</td>
+      <td>34.0</td>
+    </tr>
+    <tr>
+      <th>2020</th>
+      <td>31.0</td>
+      <td>32.0</td>
+      <td>37.0</td>
+      <td>40.0</td>
+      <td>44.0</td>
+      <td>48.0</td>
+      <td>46.0</td>
+      <td>39.0</td>
+      <td>45.0</td>
+      <td>40.0</td>
+      <td>47.0</td>
+      <td>42.0</td>
+    </tr>
+    <tr>
+      <th>2021</th>
+      <td>47.0</td>
+      <td>37.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
     
-![png](github-contributions_files/github-contributions_28_0.png)
+![png](github-contributions_files/github-contributions_31_0.png)
     
 
 
@@ -452,7 +598,7 @@ Note: only events from apache/hadoop-ozone repository are included. Earlier PRs/
 
 
     
-![png](github-contributions_files/github-contributions_31_0.png)
+![png](github-contributions_files/github-contributions_34_0.png)
     
 
 
@@ -460,6 +606,14 @@ Note: only events from apache/hadoop-ozone repository are included. Earlier PRs/
 
 
     
-![png](github-contributions_files/github-contributions_34_0.png)
+![png](github-contributions_files/github-contributions_37_0.png)
+    
+
+
+## Created PR per month
+
+
+    
+![png](github-contributions_files/github-contributions_39_0.png)
     
 
