@@ -19,14 +19,14 @@ Latest record from the dataset:
   </thead>
   <tbody>
     <tr>
-      <th>14604</th>
+      <th>15540</th>
       <td>HDDS</td>
-      <td>JIRA_COMMENT</td>
-      <td>HDDS-4482</td>
-      <td>17286672.0</td>
-      <td>2021-02-18 18:59:24+00:00</td>
-      <td>xyao</td>
-      <td>vivekratnavel</td>
+      <td>JIRA_CREATED</td>
+      <td>HDDS-4891</td>
+      <td>NaN</td>
+      <td>2021-03-02 12:33:41+00:00</td>
+      <td>adoroszlai</td>
+      <td>adoroszlai</td>
     </tr>
   </tbody>
 </table>
@@ -71,7 +71,7 @@ Latest record from the dataset:
     </tr>
     <tr>
       <th>elek</th>
-      <td>672</td>
+      <td>675</td>
     </tr>
     <tr>
       <th>ppogde</th>
@@ -139,7 +139,7 @@ Latest record from the dataset:
     </tr>
     <tr>
       <th>elek</th>
-      <td>327</td>
+      <td>328</td>
     </tr>
     <tr>
       <th>xyao</th>
@@ -175,7 +175,7 @@ Latest record from the dataset:
     </tr>
     <tr>
       <th>adoroszlai</th>
-      <td>106</td>
+      <td>109</td>
     </tr>
     <tr>
       <th>jnp</th>
@@ -227,7 +227,7 @@ Latest record from the dataset:
     </tr>
     <tr>
       <th>elek</th>
-      <td>891</td>
+      <td>896</td>
     </tr>
     <tr>
       <th>anu</th>
@@ -239,11 +239,11 @@ Latest record from the dataset:
     </tr>
     <tr>
       <th>ppogde</th>
-      <td>677</td>
+      <td>678</td>
     </tr>
     <tr>
       <th>bharatviswa</th>
-      <td>604</td>
+      <td>609</td>
     </tr>
     <tr>
       <th>xyao</th>
@@ -251,11 +251,11 @@ Latest record from the dataset:
     </tr>
     <tr>
       <th>adoroszlai</th>
-      <td>507</td>
+      <td>519</td>
     </tr>
     <tr>
       <th>msingh</th>
-      <td>500</td>
+      <td>503</td>
     </tr>
     <tr>
       <th>arpitagarwal</th>
@@ -267,7 +267,7 @@ Latest record from the dataset:
     </tr>
     <tr>
       <th>shashikant</th>
-      <td>364</td>
+      <td>369</td>
     </tr>
     <tr>
       <th>genericqa</th>
@@ -283,7 +283,7 @@ Latest record from the dataset:
     </tr>
     <tr>
       <th>avijayan</th>
-      <td>233</td>
+      <td>234</td>
     </tr>
     <tr>
       <th>hanishakoneru</th>
@@ -295,7 +295,7 @@ Latest record from the dataset:
     </tr>
     <tr>
       <th>sammi</th>
-      <td>150</td>
+      <td>151</td>
     </tr>
     <tr>
       <th>maobaolong</th>
@@ -329,58 +329,58 @@ Latest record from the dataset:
     <tr>
       <th>0</th>
       <td>adoroszlai</td>
-      <td>71</td>
-      <td>71</td>
-      <td>10.070922</td>
+      <td>74</td>
+      <td>74</td>
+      <td>10.616930</td>
     </tr>
     <tr>
       <th>1</th>
       <td>elek</td>
-      <td>61</td>
-      <td>132</td>
-      <td>8.652482</td>
+      <td>60</td>
+      <td>134</td>
+      <td>8.608321</td>
     </tr>
     <tr>
       <th>2</th>
       <td>amaliujia</td>
-      <td>41</td>
-      <td>173</td>
-      <td>5.815603</td>
+      <td>40</td>
+      <td>174</td>
+      <td>5.738881</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>avijayan</td>
-      <td>40</td>
-      <td>213</td>
-      <td>5.673759</td>
+      <td>glengeng</td>
+      <td>35</td>
+      <td>209</td>
+      <td>5.021521</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>glengeng</td>
-      <td>37</td>
-      <td>250</td>
-      <td>5.248227</td>
+      <td>rakeshr</td>
+      <td>34</td>
+      <td>243</td>
+      <td>4.878049</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>rakeshr</td>
-      <td>33</td>
-      <td>283</td>
-      <td>4.680851</td>
+      <td>avijayan</td>
+      <td>28</td>
+      <td>271</td>
+      <td>4.017217</td>
     </tr>
     <tr>
       <th>6</th>
       <td>jojochuang</td>
-      <td>27</td>
-      <td>310</td>
-      <td>3.829787</td>
+      <td>28</td>
+      <td>299</td>
+      <td>4.017217</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>yjxxtd</td>
-      <td>25</td>
-      <td>335</td>
-      <td>3.546099</td>
+      <td>bharatviswa</td>
+      <td>27</td>
+      <td>326</td>
+      <td>3.873745</td>
     </tr>
   </tbody>
 </table>
@@ -402,7 +402,7 @@ Latest record from the dataset:
 
 
 
-    9.929577464788734
+    9.41891891891892
 
 
 

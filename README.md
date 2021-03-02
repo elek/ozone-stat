@@ -6,6 +6,7 @@ The raw data is retrieved from public datasources with [omp](https://github.com/
 
 Statistics:
 
- * [Github PR statistics](./github-contributions.md)
+ * [Github contribution statistics](./github-contributions.md)
+ * [Github pr statistics](./github-pr.md)
  * [Git commit statistics](./git-commits.md)
  * [Jira issue statistics](./jira-contributions.md)
