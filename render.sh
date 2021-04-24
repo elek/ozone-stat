@@ -1,12 +1,14 @@
 #!/usr/bin/env bash
 set -ex
+mkdir -p output
 update(){
-  jupyter nbconvert --execute --no-input --to markdown $1.ipynb
-  sed -i '/^<style/,/<\/style/d' $1.md
-  jupyter nbconvert --execute --inplace --to notebook $1.ipynb
+  name=$(basename $1)
+  name=${name%.*}
+  jupyter nbconvert --execute --no-input --to markdown --output-dir=output $1
+  sed -i '/^<style/,/<\/style/d' output/$name.md
+  jupyter nbconvert --execute --inplace --to notebook $1
 }
 
-update github-contributions
-update jira-contributions
-update git-commits
-update github-pr
+for l in $(ls *.ipynb); do
+   update $l
+done

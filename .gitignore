@@ -6,3 +6,4 @@ checkout
 ponymail
 jira
 draft
+*.db
